@@ -1,0 +1,22 @@
+{
+    "name":"SPECTRA",
+    "description": "A color picker extension",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker": "background.js"
+    },
+    "permissions":[
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "16":"/images/icons.png",
+        "32":"/images/icons.png",
+        "64":"/images/icons.png"
+    }
+}
